@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Wings</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!------google fonts website-->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<!----font awesome website-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+   <section class="sub-header">
+   <nav>
+
+       <!----first view of webpage-->
+       <a href="index.html"><img src="logo.png"> </a>
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+        <!-----All Vertical Columns-->
+           <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="product.html">PRODUCTS</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+   </nav>
+    
+       <!-----Header of About Webpage-->
+   <h1>About Us</h1>
+   </section>
+
+    <!-------Content of About Webpage-->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Welcome to Food Wings Solutions</h1>
+                <p>Food Wings solutions ltd is a brain child of Chefs with international experiences. Our aim is to make sure to offer high quality products at reasonable prices. We have a vast knowledge of the current market with which we can source any product around the globe. We pride ourselves on the service we are able to offer our customers.</p>
+                <!------Explore now button-->
+                <a href="index.html" class="hero-btn red-btn"> Explore Now </a>
+            </div>
+            <div class="about-col">
+                <img src="office.png">
+            </div>
+        </div>
+    </section>
+
+    <!----Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quo temporibus accusamus tenetur <br> voluptate commodi doloremque fugit autem architecto ipsam!</p>
+      <img src="social.png" height="60">
+     <p>Made By Mayank Chugh</p>
+    </section>
+
+
+
+    <!------------Javascript for small device menu-->
+    <script>
+            
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="-200px";
+        }
+
+   </script>
+
+   
+</body>
+</html>

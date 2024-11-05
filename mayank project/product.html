@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Wings</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!------google fonts website-->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<!----font awesome website-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+   <section class="sub-header">
+   <nav>
+
+       <!----first view of webpage-->
+       <a href="index.html"><img src="logo.png"> </a>
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+        <!-----All Vertical Columns-->
+           <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="product.html">PRODUCTS</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+   </nav>
+    
+       <!-----Header of About Webpage-->
+   <h1>Our Products</h1>
+   </section>
+
+   <!---------Blog Page Content-------->
+   <section class="blog-content">
+      
+    <div class="row">
+          <!-------Blog Left Content--> 
+        <div class="blog-left">
+            <img src="certificate.png">
+            <h2>Our Products</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eum ad alias rerum dolor! Officiis nobis, aut, molestiae laboriosam soluta explicabo fugit eos architecto ad recusandae deserunt. Fugiat, iusto quam consectetur dolores cumque, libero impedit, voluptatem laborum praesentium omnis quos!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sapiente enim porro consectetur molestiae, rem rerum quisquam consequatur consequuntur facere laboriosam animi fugit aliquid? Voluptatum laudantium, consequuntur ab voluptatibus ipsum eveniet suscipit cupiditate distinctio voluptates aspernatur praesentium amet unde blanditiis ducimus nostrum dolorum saepe. Eligendi deleniti iusto adipisci fugit itaque molestiae hic alias iste. Perferendis excepturi doloremque alias vitae eos aut deserunt tenetur harum laboriosam saepe quae porro similique repellendus nemo quidem, earum reiciendis magnam voluptatum laudantium facilis quis quod sapiente? Itaque deserunt impedit suscipit pariatur recusandae et quam aspernatur numquam cum nostrum quisquam unde natus, libero totam tenetur minima.</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequatur modi sapiente neque earum itaque magnam quae voluptates saepe ipsam porro alias reprehenderit hic nemo, provident eos libero praesentium vero commodi. Dolor, ratione quam. Corporis, autem nihil, numquam hic officia quo porro, facilis corrupti quibusdam reiciendis consequatur cupiditate ut exercitationem nemo doloribus incidunt maxime natus odit eum harum. Cupiditate repudiandae laudantium fuga quibusdam ut adipisci illo saepe aliquam magnam ad mollitia itaque quo, numquam sequi. Rerum eius commodi itaque maiores?</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere doloribus ipsa expedita, iusto, unde natus quod nobis eveniet corporis eum aliquam voluptate. Officiis libero labore quasi, animi quia dolor aut. Molestiae, molestias, rem, blanditiis ipsa error nihil perferendis natus provident architecto atque culpa! Eius illum odit corporis recusandae ullam beatae.</p>
+
+         <!--------Adding a comment form-->
+        <div class="comment-box">
+
+            <h3>Leave a comment</h3>
+
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+
+        </div>
+
+     </div>
+
+
+
+<!----------Blog Right Content--------->
+        <div class="blog-right">
+            <h3>Categories</h3>
+            <div class="green">
+                <span><b><big>Products</big></b></span>
+                <span><b><big>No.Of Items</big></b></span>
+            </div>
+            <div>
+                <span>Kitchen Cupboard</span>
+                <span>6</span>
+            </div>
+            <div>
+                <span>Dairy & Deli</span>
+                <span>6</span>
+            </div>
+            <div>
+                <span>From the Garden</span>
+                <span>4</span>
+            </div>
+            <div>
+                <span>From the Freezer</span>
+                <span>5</span>
+            </div>
+            <div>
+                <span>Sea wings</span>
+                <span>7</span>
+            </div>
+            <div>
+                <span>Western Ghats</span>
+                <span>5</span>
+            </div>
+            
+
+        </div>
+      
+        </div>
+   
+    </section>
+
+    <!----Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quo temporibus accusamus tenetur <br> voluptate commodi doloremque fugit autem architecto ipsam!</p>
+      <img src="social.png" height="60">
+     <p>Made By Mayank Chugh</p>
+    </section>
+
+
+
+    <!------------Javascript for small device menu-->
+    <script>
+            
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="-200px";
+        }
+
+   </script>
+
+   
+</body>
+</html>  
